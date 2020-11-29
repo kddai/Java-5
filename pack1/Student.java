@@ -1,9 +1,5 @@
 package pack1;
-
-
-
 public class Student {
-
 	public String Name;
 	public String Age;
 	public String Sex;
