@@ -72,8 +72,29 @@ FileOutputStream.write(new String(gs));
 ```
 e.printStackTrace();  
 ```
+8.允许提供输入参数，统计古诗中某个字或词出现的次数。
+```
+int count=0;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("输入你要查找的字或词：");
+		char o = sc.next().charAt(0);
+		char[] ch =str.toCharArray();
+		for(int i=0;i<ch.length;i++){
+		    if(o==ch[i]){
+		        count++;
+		        sc.close();
+		    }
+```
+
 ##  显示结果  
+#####  运行结果
 ![](https://github.com/kddai/Java-5/blob/main/Photo/1.JPG)  
+#####  输出结果
+![](https://github.com/kddai/Java-5/blob/main/Photo/4.JPG)  
+#####  查找结果
+![](https://github.com/kddai/Java-5/blob/main/Photo/2.JPG)
+![](https://github.com/kddai/Java-5/blob/main/Photo/3.JPG)
+
 
 ##  实验感想  
   本次课是最后一次实验课，由于选修课开始了周一没有办法上实验课。只能靠着周末和其它空闲时间完成。  
